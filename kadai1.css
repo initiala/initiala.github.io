@@ -1,0 +1,14 @@
+h1{
+    font-size:30px;
+    text-align:center;
+}
+
+#name{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+img.image{
+    width:140px;
+    height:140px;
+}

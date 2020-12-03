@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* -------------------- */
+/* ▼メニューバーの装飾 */
+/* -------------------- */
+ul.hmenu {
+   margin: 0px;               /* メニューバー外側の余白(ゼロ) */
+   padding: 0px 0px 0px 15px; /* メニューバー内側の余白(左に15px) */
+   background-color: #cc0000; /* バーの背景色(濃い赤色) */
+}
+
+/* -------------------------- */
+/* ▼メインメニュー項目の装飾 */
+/* -------------------------- */
+ul.hmenu li {
+   width: 180px;          
+   display: inline-block; 
+   list-style-type: none;  
+   position: relative;     
+}
+ul.hmenu a {
+   background-color: #cc0000; 
+   color: white;              
+   line-height: 40px;         
+   text-align: center;       
+   text-decoration: none;     
+   font-weight: bold;      
+   display: block;            
+}
+ul.hmenu a:hover {
+   background-color: #ffdddd;
+   color: #dd0000;            
+}
+
+body{
+   background-color:#fff3b8 ;
+}
+
+.group{
+   width:1300px;
+   height:500px;
+}
+
+.imgl{
+   width:640px;
+   height:480px;
+   float:left;
+}
+
+.imgr{
+   width:640px;
+   height:480px;
+   float:right;
+}
